@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instagram Profile</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fafafa;
+        }
+
+        /* Header */
+        .header {
+            position: sticky;
+            top: 0;
+            background-color: white;
+            border-bottom: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* Profile section */
+        .profile {
+            display: flex;
+            padding: 20px;
+            align-items: center;
+        }
+
+        .profile-pic {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #ccc;
+            margin-right: 20px;
+        }
+
+        .profile-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+            margin: 10px 0;
+        }
+
+        .stats div {
+            text-align: center;
+        }
+
+        /* Bio */
+        .bio {
+            padding: 0 20px 20px 20px;
+        }
+
+        /* Posts grid */
+        .posts {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+            padding: 5px;
+        }
+
+        .post {
+            height: 120px;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        anush_reddy
+    </div>
+
+    <!-- Profile Section -->
+    <div class="profile">
+        <div class="profile-pic"></div>
+
+        <div class="profile-info">
+            <h3>Anush Reddy</h3>
+
+            <div class="stats">
+                <div>
+                    <strong>9</strong><br>Posts
+                </div>
+                <div>
+                    <strong>120</strong><br>Followers
+                </div>
+                <div>
+                    <strong>180</strong><br>Following
+                </div>
+            </div>
+
+            <button>Edit Profile</button>
+        </div>
+    </div>
+
+    <!-- Bio -->
+    <div class="bio">
+        <p>
+            CSE Student | AI & ML 🤖 <br>
+            Python | Java | Robotics
+        </p>
+    </div>
+
+    <!-- Posts -->
+    <div class="posts">
+        <div class="post"></div>
+        <div class="post"></div>
+        <div class="post"></div>
+        <div class="post"></div>
+        <div class="post"></div>
+        <div class="post"></div>
+    </div>
+
+</body>
+</html>
